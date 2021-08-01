@@ -19,6 +19,8 @@ def Gene(l):
 
 Obj = Gene(10)
 
-print(next(Obj))
-print(next(Obj))
-print(next(Obj))
+# print(next(Obj))
+# print(next(Obj))
+# print(next(Obj))
+
+'''Comentario para agregar un nuevo commit en Github'''
