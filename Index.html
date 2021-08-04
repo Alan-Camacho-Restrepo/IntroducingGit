@@ -3,67 +3,40 @@
 <head>
 	<meta charset="utf-8">
 	<title>Git&Github</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 </head>
 <body>
 
-	<h1>Aprendiendo sobre GIT</h1>
-	<p>Hasta acá será el proyecto del inicio</p>
-
-	<div class="container">
-		<input type="text" placeholder="Name" id = 'Nombre'>
-		<input type="button" value="Enviar" id='boton'>
+	<div class="inicio">
+		<h1>Aprendiendo sobre GIT</h1>
+		<p>Hasta acá será el proyecto del inicio</p>
 	</div>
+	<div class="container">
+		<div class="inputs">
+			<div class="nombre">
+				<input type="text" placeholder="Name" id = 'Nombre' required>
+				<button type="submit"  id='boton'>Enviar</button>
+			</div>
+			<div class="correo">
+				<input type="email" placeholder="Email" id="correo" required>
+				<button type="submit" id="boton-2">Go</button>
+			</div>
+			<div class="extra">
+				<ul>
+					<li><a href='#'>Music</a></li>
+					<li><a href="#">WebSite</a></li>
+					<li><a href="#">Contact us</a></li>					
+				</ul>
+				<img src='https://us.123rf.com/450wm/putracetol/putracetol1808/putracetol180801101/106316631-pizza-comida-y-dise%C3%B1o-de-icono-de-logotipo-de-pastel.jpg?ver=6'>
+			</div>
+		</div>
 
-
-    <div class="container-1">
-        <h3>Segunda modificación en el proyecto</h3>
-        <input type="email" placeholder="Email" id="correo">
-        <input type="button" value="Go" id="boton-2">
+		<div class="tablero">
+    		<h3>Juego de la Culebrita</h3>
+    		<canvas id = 'canvas' width="800" height="200"></canvas>
+		</div>
     </div>
 
-    <div class="container-canvas">
-    	<h2>Juego de la Culebrita</h2>
-    	<canvas id = 'canvas' width="500" height="500"></canvas>
-    </div>
-
-	<style type="text/css">
-
-		.container-canvas{
-			display: block;
-			text-align: center;
-		}
-
-		#canvas{
-			border: 3px solid #71B;
-		}
-
-		body{
-			font-family: sans-serif;
-		}
-
-		.container{
-			background: #71b;
-			padding: 10px;
-            margin: 5px;
-		}
-
-        .container-1{
-            background: #09a;
-            margin: 5px;
-            display: flex;
-            height: 70px;
-            padding: 3px;
-         }
-
-         .container-1 input{
-
-            margin: auto 10px;
-            padding: 10px;
-
-            
-         }
-
-	</style>
 
 	<script type="text/javascript" src="Javas.js"></script>
 </body>

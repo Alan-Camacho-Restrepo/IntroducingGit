@@ -74,3 +74,6 @@ function Culebrear(tecla){
 			console.log('Otra tecla');
 	}
 }
+
+
+let s = 'Hola mundo';

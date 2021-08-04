@@ -1,0 +1,48 @@
+body{
+    background-color: teal;
+    font-family:sans-serif;
+}
+.inicio{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    margin: 10px;
+    padding: 15px;
+    background-color: slateblue;
+  
+}
+
+.inputs{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid salmon;
+}
+
+li a{
+    text-decoration: none;
+    color: sandybrown;
+}
+
+img{
+    width: 50px;
+ 
+}
+
+.nombre, .correo{
+    margin: 5px;
+}
+
+.tablero{
+    margin-left: 100px;
+    margin-top: -20px;
+}
+h3{
+    background-color: red;
+}
+
+#canvas{
+    background: brown;
+}
